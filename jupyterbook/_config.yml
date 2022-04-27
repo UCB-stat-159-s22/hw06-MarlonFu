@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
+title: BINARY BLACK HOLE SIGNALS IN LIGO OPEN DATA
+author: Ligo Scientific Collaboration (LSC) and Marlon Fu
 logo: logo.png
 
 # Force re-execution of notebooks on each build.
@@ -30,3 +30,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+launch_buttons:
+  notebook_interface: classic  # The interface interactive links will activate ["classic", "jupyterlab"]
+  binderhub_url: https://mybinder.org/v2/gh/UCB-stat-159-s22/hw06-MarlonFu.git/HEAD
